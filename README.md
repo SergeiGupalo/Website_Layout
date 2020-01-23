@@ -1,1 +1,0 @@
-# SergeiGupalo.github.io
