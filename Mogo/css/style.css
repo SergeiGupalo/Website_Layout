@@ -163,6 +163,7 @@ body {
 }
 .about__inner:hover,
 .team__content-foto img:hover {
+	display: inline-block;
 	box-shadow:
     1px 1px #95e1d3,
     2px 2px #95e1d3,
@@ -457,12 +458,16 @@ body {
 	background-color: #f8f8f8;
 }
 .intro__inner {
+	display: block;
+	position: relative;
+	width: 100%;	
 	padding: 70px 0px;
 }
 .work__images {
 	display: flex;
 	position: relative;
 	max-width: 1920px;
+	width: 100%;
 	height: 780px;
 	overflow: hidden;
 	margin: 0 auto 100px;
@@ -472,7 +477,8 @@ body {
     top: 0;
     bottom: 390px;
     left: -360px;
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     height: 390px;
     margin: auto;
 }
@@ -481,7 +487,8 @@ body {
     top: 390px;
     bottom: 0;
     left: -360px;
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     height: 390px;
     margin: auto;
 }
@@ -490,7 +497,8 @@ body {
     top: 0;
     bottom: 390px;
     left: 120px;
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     height: 390px;
     margin: auto;
 }
@@ -499,7 +507,8 @@ body {
     top: 390px;
     bottom: 0;
     left: 120px;
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     height: 390px;
     margin: auto;
 }
@@ -508,7 +517,8 @@ body {
     top: 0;
     bottom: 0;
     left: 600px;
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     height: 100%;
     margin: auto;
     z-index: 240;
@@ -518,7 +528,8 @@ body {
     top: 0;
     bottom: 390px;
     left: 1080px;
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     height: 390px;
     margin: auto;
 }
@@ -527,7 +538,8 @@ body {
     top: 390px;
     bottom: 0;
     left: 1080px;
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     height: 390px;
     margin: auto;
     z-index: 227;
@@ -647,6 +659,7 @@ body {
 .map {
 	background-image: url(../img/map-fon.png);
 	background-repeat: no-repeat;
+	background-position: center;
 	height: 200px;
 }
 .map__pin {
@@ -822,4 +835,8 @@ body {
 	height: 1px;
 	background-color: #e5e5e5;
 	margin: 0 auto 25px;
+}
+.header__btn__menu {
+	display: none;
+	font-size: 28px;
 }

@@ -3,11 +3,14 @@ $(function(){
   $('.slider__intro, .news__slider-inner').slick({
     nextArrow: '<button type="button" class="slick-btn slick-next"></button>',
     prevArrow: '<button type="button" class="slick-btn slick-prev"></button>',
-    infinite: false
+    slidesToShow: 1,
+	slidesToScroll: 1,
+    infinite: false,
+    dots: false,
   });
 
 
-  $('.heder__btn-menu').on('click', function(){
+  $('.header__btn__menu').on('click', function(){
     $('.menu ul').slideToggle();
   });
 
