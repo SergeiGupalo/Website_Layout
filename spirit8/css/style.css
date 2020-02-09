@@ -232,47 +232,34 @@ a.heder__btn {
 {
     position: absolute;
     bottom: -75px;
-
     display: block;
-
     width: 100%;
     padding: 0;
     margin: 0;
-
     list-style: none;
-
     text-align: center;
 }
 .slick-dots li
 {
     position: relative;
-
     display: inline-block;
-
     width: 15px;
     height: 15px;
     margin: 0 5px;
     padding: 0;
-
     cursor: pointer;
 }
 .slick-dots li button
 {
     font-size: 0;
     line-height: 0;
-
     display: block;
-
     width: 10px;
     height: 10px;
-    /*padding: 5px;*/
-
     cursor: pointer;
-
     color: #fff;
     border: 0;
     outline: none;
-   /* background: transparent;*/
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
@@ -499,7 +486,7 @@ a.intro__work {
 	letter-spacing: -0.5px;
 	color: #fff;
 	text-transform: uppercase;
-	width: 940px;
+	width: 90%;
 	text-align: center;
 	margin: 0 auto;
 	padding-top: 100px;
@@ -519,7 +506,7 @@ a.intro__work {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300i;
 	font-size: 16px;
-	width: 750px;
+	width: 100%;
 	letter-spacing: 0.2px;
 	margin: 40px auto 90px;
 	text-align: center;
@@ -611,7 +598,7 @@ a.intro__work {
     border-radius: 38px;
     padding: 3px;
 }
-
+	/*Форма для заказа*/
 #modal{
 	display: none;
 }
@@ -635,4 +622,9 @@ a.intro__work {
 #modal input[type="submit"]{
 	background-color: #ffc222;
 	border: none;
+}
+	/*Иконка меню*/
+.header__btn-menu {
+	display: none;
+	font-size: 28px;
 }
