@@ -1,0 +1,201 @@
+@media ( max-width: 1050px ) {
+    
+    .vkontakte {
+        margin-top: 130px;
+    }
+    
+    .vk-1::before,
+    .vk-2::before,
+    .vk-3::before,
+    .vk-4::before,
+    .vk-5::before,
+    .tl-1::before,
+    .tl-2::before,
+    .tl-3::before,
+    .tl-4::before,
+    .youtube-1::before,
+    .youtube-2::before,
+    .youtube-3::before,
+    .youtube-4::before {
+        display: none;
+    }
+    
+    .vkontakte__content,
+    .youtube__content {
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .vkontakte__post-text,
+    .telegram__post-text,
+    .youtube__post-text{
+        max-width: 600px;
+        margin: 0 auto 20px;
+    }
+    
+    .vkontakte__post-list,
+    .telegram__post-list,
+    .youtube__post-list {
+        text-align: left;
+        margin-left: 200px;
+    }
+    
+    .vkontakte__post-list li,
+    .telegram__post-list li,
+    .youtube__post-list li {
+        display: block;
+        position: relative;
+        margin-left: 108px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .vk-2,
+    .vk-4,
+    .vk-5,
+    .tl-2,
+    .tl-3,
+    .youtube-2,
+    .youtube-3 {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .vk__btn,
+    .tl__btn,
+    .youtube__btn {
+        margin-left: 200px;
+    }
+    
+    .telegram__content {
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin-top: 285px;
+    }
+    .frontend__book-text::before,
+    .frontend__help-text::before {
+        display: none;
+    }
+}
+
+@media ( max-width: 1000px ) {
+    .footer__content {
+        display: block;
+        text-align: center;
+    }
+    
+    .footer__content-logo,
+    .footer__content-btn {
+        margin: 0 auto;
+    }
+
+    .footer-btn {
+        margin: 10px auto;
+        width: 100%;
+    }
+    
+    .footer-btn__text {
+        margin-top: 15px;
+        right: 0;
+    }
+    
+    .footer__content-social {
+        margin: 10px auto 0px;
+    }
+    
+    .footer__social-item {
+        padding: 0;
+    }
+}
+
+@media ( max-width: 950px ) {
+    .fa-bars {
+        display: block;
+    }
+    .menu ul{
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 50;
+        padding-left: 0;
+    }
+    .menu li{
+        display: block;
+        text-align: center;
+        padding-left: 0;
+    }
+    .menu a{
+        display: block;
+        background-color: #000;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        margin-left: 0;
+    }
+    .menu a:hover {
+        border: 2px solid #0a27f2;
+        padding: 5px;
+        transition: 0.4s;
+    }
+    .fa-bars:before {
+        color: #fff;
+    }
+    
+    .frontend__book-img img,
+    .frontend__help-img img {
+        max-width: 570px;
+    }
+}
+
+@media ( max-width: 700px ) {
+    .vkontakte__post-list,
+    .telegram__post-list,
+    .youtube__post-list{
+        margin-left: 100px;
+    }
+    
+    .vk__btn,
+    .tl__btn,
+    .youtube__btn {
+        margin-left: 100px;
+    }
+    
+    .frontend__book-img img,
+    .frontend__help-img img {
+        max-width: 370px;
+    }
+}
+
+@media ( max-width: 460px ) {
+    .vkontakte__post-list,
+    .telegram__post-list,
+    .youtube__post-list {
+        margin-left: 0;
+    }
+    
+    .vk__btn,
+    .tl__btn,
+    .youtube__btn {
+        margin: 20px auto;
+    }
+    
+    .frontend__book-img img,
+    .frontend__help-img img {
+        max-width: 270px;
+    }
+}
+
+@media ( max-width: 400px ) {
+    .header__content-title {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 950px){
+    .menu ul{
+        display: block !important;
+    }
+}
